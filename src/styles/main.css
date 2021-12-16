@@ -1,0 +1,148 @@
+:root{
+    --color-light: #FCF7FF;
+    --color-dark: #212529;
+}
+html{
+    font-size: 62.5%;
+    
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+.header-logo{
+    width: 82px;
+    height: 65px;
+}
+.navbar{
+    height: 80px;
+    background-color: var(--color-dark);
+}
+.navbar-brand{
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: var(--color-light);
+    
+}
+.navbar .nav-link{
+    font-size: 1.6rem;
+}
+.home-container{
+    display: flex;
+    height: 500px;
+    background-color: black;
+    justify-content: center;
+}
+.home-image{
+    max-height: 500px;
+    object-fit: fill;
+}
+.home-title{
+    position: absolute;
+    color: var(--color-light);
+    top: 150px;
+    left: 10%;
+    
+}
+.home-title h1{
+    font-size: 5rem;
+    font-weight: 600;
+}
+.home-title h2{
+    margin-top: 12px;
+    font-size: 2.5rem;
+    font-weight: medium;
+    max-width: 500px;
+    line-height: 32px;
+}
+.service-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.service-title{
+    height: 100px;
+    justify-content: center;
+    text-align: center;
+}
+.service-title p{
+
+    margin-top: 24px;
+    font-size: 1.6rem;
+    font-weight: 300;
+    margin-top: 12px 0;
+}
+.service-title h1{
+    font-size: 3.6rem;
+    font-weight: bold;
+    margin: 0;
+}   
+.card-container{
+    width: 100%;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+}
+.card{
+    margin-left: 20px;
+    border-radius: 4px;
+    box-shadow:  19px 19px 39px #d6d2d9,
+             -19px -19px 39px #ffffff;
+}
+.card img{
+    padding: 9px;
+}
+.card-body .card-title{
+    font-size: 2.4rem;
+    font-weight: 600;
+}
+.card-body .card-text{
+    font-size: 1.2rem;
+    font-weight: normal;
+}
+.team-container{
+    display: flex;
+    background-color: var(--color-dark);
+    height: 470px;
+}
+.team-container img{
+    width: 60vw;
+    object-fit: cover;
+}
+.team-container .team-card{
+    padding: 55px;
+    color: var(--color-light);
+}
+.team-card .team-title{
+    font-size: 2.4rem;
+    font-weight: bold;
+}
+.team-card .team-text{
+    width: 330px;
+    margin-top: 23px;
+    font-size: 1.4rem;
+    font-weight: normal;
+}
+.customer-title{
+    display: flex;
+    font-size: 3.6rem;
+    font-weight: 800;
+    height: 100px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 3.6rem;
+    font-weight: 800;
+}
+.customer-body{
+    height: 280px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+footer{
+    height: 150px;
+    background-color: #234E5A;
+}

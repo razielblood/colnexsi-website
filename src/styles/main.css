@@ -101,28 +101,12 @@ body{
     font-size: 1.2rem;
     font-weight: normal;
 }
-.team-container{
-    display: flex;
+#team{
     background-color: var(--color-dark);
-    height: 470px;
-}
-.team-container img{
-    width: 60vw;
-    object-fit: cover;
-}
-.team-container .team-card{
-    padding: 55px;
     color: var(--color-light);
 }
-.team-card .team-title{
-    font-size: 2.4rem;
-    font-weight: bold;
-}
-.team-card .team-text{
-    width: 330px;
-    margin-top: 23px;
-    font-size: 1.4rem;
-    font-weight: normal;
+#team img{
+    max-width: 100%;
 }
 .customer-title{
     display: flex;
@@ -145,4 +129,52 @@ body{
 footer{
     height: 150px;
     background-color: #234E5A;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+footer .social-media{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 12px;
+}
+.contact{
+    margin: auto;
+}
+.contact-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.contact-container img{
+    width: 24px;
+    height: 24px;
+}
+.contact-container a{
+    font-size: 1.2rem;
+}
+.text-footer{
+    font-size: 1.6rem;
+}
+.footer-logo{
+    width: 50px;
+    height: 40px;
+}
+@media (max-width: 600px){
+    .navbar{
+        height: 60px;
+    }
+    .home-title h1{
+        font-size: 3rem;
+    }
+    .home-title h2{
+        font-size: 2rem;
+    }
+    .customer-body{
+        flex-direction: column;
+        height: auto;
+        padding: 20px 0 20px 0;
+    }
 }
